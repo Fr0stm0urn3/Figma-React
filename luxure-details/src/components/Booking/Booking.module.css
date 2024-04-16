@@ -1,0 +1,36 @@
+.container {
+  max-width: 1440px;
+  margin: 60px auto;
+  background: url("../../assets/images/Rectangle 12.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 0 400px 300px 30px;
+}
+
+.title {
+  font-size: 50px;
+  max-width: 400px;
+  margin-bottom: 35px;
+}
+
+.desc {
+  font-size: 20px;
+  max-width: 400px;
+}
+
+.quote {
+  margin-top: 40px;
+  text-decoration: none;
+  display: inline-block;
+  color: #e1e1e1;
+  font-size: 26px;
+  font-weight: 600;
+  border: none;
+  transition: 0.3s ease-out;
+}
+
+.quote:hover {
+  transform: scale(96%);
+  text-decoration: underline;
+}

@@ -1,0 +1,48 @@
+.navbar {
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title {
+  font-size: 36px;
+  letter-spacing: 1.75px;
+  font-weight: 900;
+  color: white;
+}
+
+.list {
+  display: flex;
+  gap: 40px;
+}
+
+.listItem {
+  list-style: none;
+}
+
+.listItem a {
+  color: #e1e1e1;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.listItem:hover {
+  transform: scale(95%);
+  transition: all 0.3s ease-in-out;
+}
+
+.btn {
+  color: white;
+  border: 2px #e1e1e1 solid;
+  padding: 15px 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  background-color: #1e1e1e;
+  margin-left: 30px;
+}
+
+.btn:hover {
+  transform: scale(105%);
+  transition: 0.3s ease-in-out;
+}
