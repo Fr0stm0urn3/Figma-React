@@ -1,0 +1,54 @@
+.container {
+  max-width: 1440px;
+  margin: 30px auto;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 30px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-transform: uppercase;
+  color: rgb(113, 113, 113);
+  letter-spacing: 0.7px;
+}
+
+.item:first-child {
+  color: whitesmoke;
+}
+
+.btn {
+  padding: 16px 40px;
+  border: none;
+  border-radius: 30px;
+  color: whitesmoke;
+  font-size: 15px;
+  transition: 0.3s ease-in-out;
+}
+
+.btn:first-child {
+  background-color: black;
+  margin-right: 8px;
+}
+
+.btn:last-child {
+  background-color: rgb(92, 92, 231);
+}
+
+.btn:hover {
+  transform: scale(95%);
+}
