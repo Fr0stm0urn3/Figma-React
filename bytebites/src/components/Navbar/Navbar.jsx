@@ -33,7 +33,7 @@ const Navbar = () => {
         <div>
           <button className={styles.btn}>
             <span>
-              <FaGlobe />
+              <FaGlobe className={styles.globe} />
             </span>{" "}
             Eng
           </button>

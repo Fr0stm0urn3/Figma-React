@@ -43,6 +43,11 @@
 .btn:first-child {
   background-color: black;
   margin-right: 8px;
+  text-transform: uppercase;
+}
+
+.globe {
+  margin-right: 3px;
 }
 
 .btn:last-child {
