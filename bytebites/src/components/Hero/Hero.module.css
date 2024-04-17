@@ -1,11 +1,16 @@
 .container {
   max-width: 1440px;
   margin: 60px auto;
+  padding: 0 4%;
 }
 
 .content {
   display: flex;
   justify-content: space-between;
+}
+
+.imgContainer {
+  user-select: none;
 }
 
 .innerContent {
@@ -26,8 +31,8 @@
   margin: 100px 0;
   list-style: none;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .list {
@@ -68,4 +73,23 @@
 .images img {
   filter: grayscale(100%);
   margin: 10px 10px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 930px) {
+  .content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 70px;
+  }
+  .lists {
+    flex-direction: column;
+  }
 }

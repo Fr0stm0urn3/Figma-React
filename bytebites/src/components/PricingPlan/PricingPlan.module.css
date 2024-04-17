@@ -1,6 +1,7 @@
 .container {
   max-width: 1440px;
   margin: 100px auto;
+  padding: 0 4%;
 }
 
 .content {
@@ -134,4 +135,11 @@
   transform: scale(105%);
   color: palevioletred;
   background-color: black;
+}
+
+@media screen and (max-width: 930px) {
+  .items {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
 }

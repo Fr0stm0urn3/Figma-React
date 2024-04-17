@@ -14,7 +14,7 @@ const Hero = () => {
     <>
       <section className={styles.container}>
         <div className={styles.content}>
-          <div>
+          <div className={styles.imgContainer}>
             <img src={HeroImage} alt="" />
           </div>
           <div className={styles.innerContent}>
@@ -35,7 +35,7 @@ const Hero = () => {
             <FaCheck /> 24/7 Customer Support
           </li>
           <li className={`${styles.list} ${styles.btn}`}>
-            Get started now <FaArrowAltCircleRight />
+            Get started now <FaArrowAltCircleRight className={styles.arrow} />
           </li>
         </ul>
       </section>
