@@ -62,3 +62,28 @@
 .innerRightContent button:hover {
   transform: scale(95%);
 }
+
+@media screen and (max-width: 830px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .leftContent {
+    height: 300px;
+  }
+  .rightContent {
+    margin: 0 30px;
+    padding: 40px 60px;
+  }
+
+  .innerRightContent {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .innerRightContent button {
+    margin-top: 10px;
+  }
+}

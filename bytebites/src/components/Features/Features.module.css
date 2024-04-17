@@ -1,0 +1,220 @@
+.container {
+  max-width: 1440px;
+  margin: 180px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.leftContent {
+  padding: 50px 20px;
+  background-color: black;
+  border-radius: 10px;
+  height: 500px;
+}
+
+.leftContent h3 {
+  max-width: 300px;
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: whitesmoke;
+}
+
+.leftContent p {
+  color: gray;
+  font-size: 17px;
+  max-width: 350px;
+  margin-bottom: 50px;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+}
+
+.lists {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  line-height: 35px;
+}
+
+.list {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin: 0 6px;
+  color: gray;
+}
+
+.chart {
+  width: 200px;
+  height: 20px;
+  border-radius: 2px;
+  background-color: palevioletred;
+}
+
+.list .chart {
+  background: linear-gradient(90deg, #333333 35%, gray 0%);
+}
+
+.list:first-child .chart {
+  background: linear-gradient(90deg, rgb(80, 80, 172) 85%, gray 0%);
+  height: 25px;
+  width: 230px;
+}
+.list:first-child {
+  color: white;
+}
+.list:nth-child(2) .chart {
+  background: linear-gradient(90deg, #333333 45%, gray 0%);
+}
+.list:nth-child(3) .chart {
+  background: linear-gradient(90deg, #333333 60%, gray 0%);
+}
+.list:nth-child(4) .chart {
+  background: linear-gradient(90deg, #333333 55%, gray 0%);
+}
+.list:nth-child(5) .chart {
+  background: linear-gradient(90deg, #333333 25%, gray 0%);
+}
+
+.story {
+  background-color: black;
+  flex: 1;
+  height: 500px;
+  padding: 60px 30px 0 60px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.storyContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.storyContent h3 {
+  font-size: 40px;
+  max-width: 255px;
+}
+
+.storyContent button {
+  margin: 15px 0 100px;
+  padding: 20px 30px;
+  color: white;
+  letter-spacing: 0.55px;
+  background-color: #333333;
+  border-radius: 16px;
+  border: none;
+  transition: 0.3s;
+}
+
+.storyContent button:hover {
+  transform: scale(95%);
+}
+
+.visitor {
+  padding: 0 30px;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+}
+
+.visitor {
+  font-size: 24px;
+  text-align: center;
+}
+
+.visitor div:last-child {
+  color: gray;
+  font-size: 18px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 30px;
+  background-color: black;
+  border-radius: 10px;
+  height: 500px;
+}
+
+.contact h3 {
+  font-size: 40px;
+  font-weight: 800;
+  max-width: 300px;
+}
+
+.contact p {
+  max-width: 270px;
+  margin: 30px 0 20px;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: gray;
+}
+
+.bottomLeft {
+  height: 600px;
+  background-color: black;
+  padding: 60px 30px;
+  border-radius: 10px;
+}
+
+.bottomLeft h3 {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.bottomLeft p {
+  font-size: 18px;
+  letter-spacing: 0.6px;
+  color: gray;
+  margin: 20px 0 100px;
+  text-transform: uppercase;
+}
+
+.bottomRight {
+  height: 600px;
+  border-radius: 10px;
+  background-color: black;
+  padding: 50px 30px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bottomRight h3 {
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.bottomRight p {
+  color: gray;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .content {
+    flex-direction: column;
+  }
+}
