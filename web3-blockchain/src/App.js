@@ -1,4 +1,5 @@
 import Features from "./components/Features/Features"
+import Footer from "./components/Footer/Footer"
 import Form from "./components/Form/Form"
 import Hero from "./components/Hero/Hero"
 import Navbar from "./components/Navbar/Navbar"
@@ -12,6 +13,7 @@ const App = () => {
       <Pricing />
       <Features />
       <Form />
+      <Footer />
     </>
   )
 }
