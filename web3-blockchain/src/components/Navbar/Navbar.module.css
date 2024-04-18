@@ -1,0 +1,118 @@
+.container {
+  max-width: 1440px;
+  margin: 30px auto;
+  padding: 0px 6%;
+  position: relative;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content img {
+  cursor: pointer;
+}
+
+.lists {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.lists li button {
+  border: none;
+  background-color: white;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.lists li button:hover {
+  transform: scale(105%);
+  color: #96ea63;
+}
+
+.content .signUpBtn {
+  font-size: 15px;
+  padding: 14px 36px;
+  background-color: #96ea63;
+  color: #333333;
+  border: none;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.content .signUpBtn:hover {
+  transform: scale(105%);
+}
+
+.borderBottom {
+  margin-top: 20px;
+  border-bottom: 1px solid black;
+}
+
+.hamburger {
+  display: none;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.9s;
+}
+
+.hamburger:hover {
+  transform: scale(105%);
+  transform: rotate(360deg);
+  color: #96ea63;
+}
+
+.menu {
+  position: absolute;
+  top: 75%;
+  right: 10%;
+  background-color: #96ea63;
+  color: black;
+  z-index: 10;
+  padding: 30px 40px;
+  border-radius: 10px;
+}
+
+.menuLists {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+
+.menuLists li button {
+  border: none;
+  background-color: #96ea63;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.menuLists li button:hover {
+  transform: scale(105%);
+}
+
+@media screen and (max-width: 830px) {
+  .lists {
+    display: none;
+  }
+  .signUpBtn {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+}
