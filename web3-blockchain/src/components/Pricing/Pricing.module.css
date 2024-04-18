@@ -108,7 +108,9 @@
   font-weight: 600;
   cursor: pointer;
   font-size: 14px;
-  transition: 0.3s;
+  transition: all 0.3s;
+  text-decoration: none;
+  color: black;
 }
 
 .getStartedBtn .arrowIcon {

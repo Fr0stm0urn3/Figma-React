@@ -19,7 +19,7 @@ const Pricing = () => {
               $9.99<span>/month</span>
             </div>
             <p>Essential features for beginners.</p>
-            <a className={styles.getStartedBtn}>
+            <a href="/" className={styles.getStartedBtn}>
               Get started with Basics <FaArrowRight className={styles.arrowIcon} />
             </a>
             <ul>
@@ -43,7 +43,7 @@ const Pricing = () => {
               $9.99<span>/month</span>
             </div>
             <p>Essential features for beginners.</p>
-            <a className={styles.getStartedBtn}>
+            <a href="/" className={styles.getStartedBtn}>
               Get started with Basics <FaArrowRight className={styles.arrowIcon} />
             </a>
             <ul>
@@ -64,7 +64,7 @@ const Pricing = () => {
               $9.99<span>/month</span>
             </div>
             <p>Essential features for beginners.</p>
-            <a className={styles.getStartedBtn}>
+            <a href="/" className={styles.getStartedBtn}>
               Get started with Basics <FaArrowRight className={styles.arrowIcon} />
             </a>
             <ul>

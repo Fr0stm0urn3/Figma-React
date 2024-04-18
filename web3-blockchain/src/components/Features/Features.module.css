@@ -1,0 +1,99 @@
+.container {
+  max-width: 1440px;
+  margin: 80px auto;
+  padding: 0 4%;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.subTitle {
+  color: gray;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.topContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  gap: 30px;
+}
+
+.card {
+  border: 1px gray solid;
+  padding: 16px 20px;
+  border-radius: 16px;
+  min-height: 300px;
+}
+
+.topContent .card {
+  min-width: 400px;
+}
+
+.card h5 {
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.card p {
+  color: gray;
+  font-size: 15px;
+  margin: 10px 0 30px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column: auto;
+  gap: 10px;
+}
+
+@media screen and (max-width: 1120px) {
+  .buttons {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.buttons .button {
+  background-color: rgb(183, 183, 183);
+  padding: 14px 26px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.inviteBtn {
+  margin-top: 60px;
+  text-align: center;
+  border: 1px solid black;
+  background-color: bisque;
+  border-radius: 20px;
+  padding: 20px 30px;
+  font-size: 18px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.inviteBtn:hover {
+  transform: scale(97%);
+}
+
+.bottomContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.card img {
+  display: inline;
+  width: auto;
+  max-width: 100%;
+}
