@@ -1,0 +1,113 @@
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 60px 10%;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 70px;
+  font-weight: 900;
+  word-spacing: -20px;
+  max-width: 700px;
+  margin-bottom: 20px;
+}
+
+.subTitle {
+  font-size: 18px;
+  font-weight: 550;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.buttons button {
+  padding: 14px 22px;
+  border-radius: 8px;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.signBtn {
+  background-color: #96ea63;
+  border: none;
+}
+
+.contactBtn {
+  background-color: white;
+  border: 1px solid black;
+}
+
+.buttons button:hover {
+  transform: scale(105%);
+}
+
+.perks {
+  margin: 60px auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.perk {
+  margin: 30px auto;
+}
+
+.perkHeader {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 auto 10px;
+}
+
+.perkHeader h4 {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.perk p {
+  max-width: 300px;
+}
+
+.heroFooter {
+  max-width: 1660px;
+  margin: 0 auto;
+}
+
+.heroFooter h3 {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 40px;
+  letter-spacing: 0.6px;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 930px) {
+  .perks {
+    text-align: center;
+    align-items: center;
+  }
+
+  .perkHeader {
+    justify-content: center;
+  }
+}
