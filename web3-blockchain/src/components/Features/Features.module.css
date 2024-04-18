@@ -97,3 +97,12 @@ h2 {
   width: auto;
   max-width: 100%;
 }
+
+@media screen and (max-width: 830px) {
+  .topContent {
+    flex-direction: column;
+  }
+  .bottomContent {
+    flex-direction: column;
+  }
+}

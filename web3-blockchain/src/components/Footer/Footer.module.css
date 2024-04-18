@@ -64,10 +64,23 @@
 .bottomContent button:hover {
   transform: scale(102%);
   background-color: #96ea63;
-  border: none;
 }
 
 .mediaIcon {
   width: 24px;
   height: 24px;
+}
+
+@media screen and (max-width: 830px) {
+  .topContent {
+    flex-direction: column;
+    line-height: 40px;
+  }
+  .bottomContent {
+    flex-direction: column;
+    line-height: 80px;
+  }
+  .bottomContent button {
+    margin-bottom: 20px;
+  }
 }

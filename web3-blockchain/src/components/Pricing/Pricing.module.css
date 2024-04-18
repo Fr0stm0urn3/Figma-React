@@ -177,3 +177,9 @@
 .pricingFooter {
   background: linear-gradient(#96ea63);
 }
+
+@media screen and (max-width: 830px) {
+  .cards {
+    flex-direction: column;
+  }
+}
