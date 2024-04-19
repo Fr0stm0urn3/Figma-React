@@ -1,0 +1,83 @@
+.container {
+  max-width: 1440px;
+  margin: 100px auto;
+  padding: 0 4%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container h2 {
+  font-size: 40px;
+  max-width: 500px;
+  text-align: center;
+  margin: 60px;
+  font-weight: 700;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.card {
+  padding: 46px 36px;
+  height: 550px;
+  width: 450px;
+  border: 2px solid gray;
+  background-color: #1a1a1a;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card h4 {
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.card p {
+  font-size: 20px;
+  color: rgb(199, 199, 199);
+  text-align: center;
+  margin: 20px 0 40px;
+}
+
+.card button {
+  color: black;
+  background-color: whitesmoke;
+  padding: 14px 24px;
+  border: none;
+  border-radius: 20px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: 0.3s;
+}
+
+.card button:hover {
+  transform: scale(103%);
+}
+
+img {
+  width: 100%;
+  margin-top: auto;
+}
+
+.bookButton {
+  background-color: blueviolet;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  transition: 0.3s;
+  margin-top: -22px;
+}
+
+.bookButton:hover {
+  transform: scale(103%);
+}
