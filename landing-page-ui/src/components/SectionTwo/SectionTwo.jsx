@@ -33,9 +33,9 @@ const SectionTwo = () => {
                 many more to come. Our REST API and CLI help you to connect even more.
               </p>
               <button>
-                <FaArrowRight />
-                Discover all available apps
+                Discover all available apps <FaArrowRight />
               </button>
+              <img src={cardImg} alt="" />
             </div>
             <div className={styles.card}>
               <h3>Customize outputs</h3>

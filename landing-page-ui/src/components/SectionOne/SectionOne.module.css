@@ -76,6 +76,10 @@
   margin-bottom: 10px;
 }
 
+.leftContent h3 span img {
+  width: 22px;
+}
+
 .leftContent p {
   font-size: 18px;
   color: gray;

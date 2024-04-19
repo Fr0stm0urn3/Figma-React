@@ -118,17 +118,28 @@
   margin-bottom: 10px;
 }
 
+.box h5 span img {
+  display: inline;
+  width: 22px;
+}
+
 .box p {
   color: rgb(196, 196, 196);
   font-size: 16px;
 }
 
-@media screen and (max-width: 1160px) {
+@media screen and (max-width: 1140px) {
   .boxes {
     grid-template-columns: repeat(2, 1fr);
   }
 
   .cards {
     flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .card {
+    width: auto;
   }
 }

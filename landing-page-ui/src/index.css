@@ -8,3 +8,7 @@
   background-color: black;
   color: white;
 }
+
+body {
+  padding: 0 4%;
+}
