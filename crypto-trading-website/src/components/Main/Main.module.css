@@ -1,0 +1,462 @@
+.container {
+  max-width: 1640px;
+  margin: -50px auto 0;
+  padding: 0 5%;
+  scale: 83%;
+  transition: all 0.3s;
+}
+
+.overview {
+  grid-area: overview;
+}
+
+.traded {
+  grid-area: traded;
+}
+
+.john {
+  grid-area: john;
+}
+
+.performance {
+  grid-area: performance;
+}
+
+.position {
+  grid-area: position;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-areas:
+    "header header header header header header"
+    "overview overview overview traded traded john"
+    "overview overview overview traded traded position"
+    "performance performance performance traded traded position"
+    "performance performance performance traded traded position";
+  gap: 30px;
+}
+
+.gridContainer > div {
+  padding: 30px 30px;
+  font-size: 20px;
+  background-color: rgb(55, 55, 55);
+  border-radius: 30px;
+}
+
+.gridContainer .header {
+  background-color: rgb(2, 2, 80);
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: palevioletred;
+  height: 260px;
+}
+
+.header h2 {
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+}
+
+.header .subTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.header .subTitle div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.header {
+  grid-area: header;
+}
+
+.overview h4 {
+  font-size: 26px;
+}
+
+.overviewContent {
+  margin: 30px 0 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.overviewContent .withIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.withIcon .angleDown {
+  font-size: 24px;
+  margin-top: 4px;
+  margin-left: 6px;
+}
+
+.overviewContent .middleLine {
+  border-left: 3px solid gray;
+  height: 55px;
+}
+
+.overviewContent div {
+  background-color: black;
+  color: white;
+  padding: 14px 22px;
+  border-radius: 40px;
+  font-weight: 700;
+}
+
+.overviewContent .whiteDiv {
+  font-size: 26px;
+  background-color: white;
+  color: #333333;
+}
+
+.rates {
+  padding: 0 30px 0 20px;
+}
+
+.overview .rates {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 40px;
+  color: rgb(187, 187, 187);
+  font-weight: 600;
+}
+
+.overview .rates .green {
+  color: greenyellow;
+}
+
+.rates .white {
+  color: white;
+}
+
+.overview .copyButton {
+  color: white;
+  font-weight: 800;
+  font-size: 20px;
+  padding: 20px 30px;
+  background-color: rgb(109, 109, 255);
+  border-radius: 40px;
+  margin-top: 20px;
+  margin-left: 10px;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.overview .copyButton:hover {
+  transform: scale(103%);
+}
+
+.traded h4 {
+  font-size: 30px;
+}
+
+.traded .withIcon {
+  background-color: black;
+  padding: 20px 22px;
+  font-size: 20px;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  margin: 20px 0 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.traded .withIcon .iconDown {
+  font-size: 26px;
+}
+
+.traded .circleChart {
+  background-color: blue;
+  border-radius: 100%;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.traded .circleChart .innerCircleChart {
+  background-color: black;
+  font-size: 20px;
+  margin: auto;
+  height: 220px;
+  width: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 100%;
+  gap: 10px;
+}
+
+.traded .circleChart .innerCircleChart div:first-child {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.traded ul {
+  list-style: none;
+  margin-top: 120px;
+  font-size: 24px;
+  line-height: 55px;
+}
+
+.traded ul li {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.traded .circle {
+  width: 20px;
+  height: 20px;
+  background-color: gray;
+  border-radius: 100%;
+}
+
+.traded ul li:first-child .circle {
+  background-color: blue;
+}
+
+.traded ul li:last-child .circle {
+  background-color: black;
+}
+
+.john .johnHeader {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.john .johnHeader img {
+  width: 80px;
+}
+
+.john .johnHeader h5 {
+  font-size: 22px;
+}
+
+.john .johnHeader .password {
+  color: rgb(171, 169, 169);
+  font-size: 12px;
+}
+
+.john .followerCount {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  font-weight: 700;
+  margin: 40px 0;
+  gap: 20px;
+}
+
+.john .buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0 20px;
+}
+
+.john .buttons button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 16px;
+  color: white;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.john .buttons button:first-child {
+  background-color: rgb(108, 108, 230);
+}
+.john .buttons button:last-child {
+  background-color: black;
+}
+
+.john .buttons button:hover {
+  transform: scale(104%);
+}
+
+.performance h4 {
+  font-size: 26px;
+}
+
+.performanceContent {
+  margin: 30px 0 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.performanceContent .withIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.withIcon .angleDown {
+  font-size: 24px;
+  margin-top: 4px;
+  margin-left: 6px;
+}
+
+.performanceContent .middleLine {
+  border-left: 3px solid gray;
+  height: 55px;
+}
+
+.performanceContent div {
+  background-color: black;
+  color: white;
+  padding: 14px 22px;
+  border-radius: 40px;
+  font-weight: 700;
+}
+
+.performanceContent .whiteDiv {
+  font-size: 26px;
+  background-color: white;
+  color: #333333;
+}
+
+.performance .subtitle {
+  margin-bottom: 30px;
+  line-height: 40px;
+  font-weight: 700;
+}
+
+.performance .subtitle div:first-child {
+  color: gray;
+}
+
+.performance .subtitle div:last-child {
+  color: greenyellow;
+}
+
+.performance .performanceChart {
+  font-weight: 700;
+  color: gainsboro;
+}
+
+.performance .performanceLeftChart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.performanceLeftChart .stats {
+  line-height: 40px;
+}
+
+.performance .performanceBottomChart {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.position {
+  font-weight: 600;
+}
+
+.position h4 {
+  font-size: 26px;
+  margin-bottom: 50px;
+}
+
+.position .content {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.position .leftContent {
+  line-height: 70px;
+  font-size: 13px;
+  color: rgb(162, 162, 162);
+}
+
+.position .rightContent {
+  line-height: 70px;
+  text-align: right;
+}
+
+.rightContent .green {
+  color: greenyellow;
+}
+
+.rightContent .red {
+  color: red;
+}
+
+@media screen and (max-width: 1580px) {
+  .gridContainer {
+    grid-template-areas:
+      "header header"
+      "overview john"
+      "traded traded"
+      "position position"
+      "performance performance";
+    text-align: center;
+  }
+  .gridContainer h2 {
+    font-size: 50px;
+  }
+  .gridContainer h4 {
+    font-size: 40px;
+  }
+
+  .gridContainer > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 830px) {
+  .container {
+    transform: scale(92%);
+  }
+  .gridContainer {
+    grid-template-areas:
+      "header"
+      "overview"
+      "john"
+      "traded"
+      "position"
+      "performance";
+    text-align: center;
+  }
+  .gridContainer h2 {
+    font-size: 50px;
+  }
+  .gridContainer h4 {
+    font-size: 40px;
+  }
+
+  .gridContainer > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+}
