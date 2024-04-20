@@ -19,7 +19,7 @@ const SectionFour = () => {
           <button>
             View documentation <FaArrowCircleRight />
           </button>
-          <img src={cardImage1} alt="" />
+          <img src={cardImage1} className={styles.sectionFourImg} alt="" />
         </div>
         <div className={styles.card}>
           <h4>Export production-ready code</h4>
@@ -30,7 +30,7 @@ const SectionFour = () => {
           <button>
             Discover out templates <FaArrowCircleRight />
           </button>
-          <img src={cardImage2} alt="" />
+          <img src={cardImage2} className={styles.sectionFourImg} alt="" />
         </div>
       </div>
       <h2>Start automating your design system today</h2>

@@ -123,6 +123,11 @@
   width: 22px;
 }
 
+.cardImg {
+  margin-top: auto;
+  width: 100%;
+}
+
 .box p {
   color: rgb(196, 196, 196);
   font-size: 16px;

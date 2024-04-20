@@ -35,7 +35,7 @@ const SectionTwo = () => {
               <button>
                 Discover all available apps <FaArrowRight />
               </button>
-              <img src={cardImg} alt="" />
+              <img src={cardImg} className={styles.cardImg} alt="" />
             </div>
             <div className={styles.card}>
               <h3>Customize outputs</h3>
@@ -46,7 +46,7 @@ const SectionTwo = () => {
               <button>
                 Discover all parsers <FaArrowRight />
               </button>
-              <img src={cardImg} alt="" />
+              <img src={cardImg} className={styles.cardImg} alt="" />
             </div>
           </div>
           <div className={styles.boxes}>

@@ -1,0 +1,116 @@
+.container {
+  max-width: 1520px;
+  margin: 0 auto;
+  padding: 30px 4%;
+  position: relative;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  user-select: none;
+}
+
+.lists {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.lists li {
+  color: whitesmoke;
+  font-size: 18px;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.lists li:first-child {
+  font-size: 26px;
+  font-weight: 900;
+}
+
+.lists li span {
+  background-color: rgb(119, 119, 247);
+  border-radius: 20px;
+  padding: 2px 4px;
+  font-size: 10px;
+}
+
+.lists li:hover {
+  transform: scale(104%);
+}
+
+.navButtons {
+  display: flex;
+  gap: 14px;
+}
+
+.navButtons button {
+  padding: 12px 16px;
+  border: 1px solid gray;
+  border-radius: 20px;
+  background-color: #333333;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.blueCircle {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background-color: blue;
+}
+
+.navButtons button:hover {
+  transform: scale(103%);
+}
+
+.hamburger {
+  display: none;
+  font-size: 26px;
+}
+
+.hamburgerMenu {
+  position: absolute;
+  background-color: #333333;
+  top: 60%;
+  right: 11%;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.hamburgerMenuInner ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1120px) {
+  .container {
+    padding: 30px 8%;
+  }
+
+  .content ul {
+    display: none;
+  }
+
+  .content .navButtons {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+}
