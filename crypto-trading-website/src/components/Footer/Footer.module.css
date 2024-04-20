@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -50px;
+  padding-bottom: 30px;
+}
+
+.middleLine {
+  border-top: 1px solid rgb(123, 123, 123);
+  width: 100%;
+
+  margin: 20px 0 30px;
+}
+
+.container div:last-child {
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.7px;
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    margin-top: -250px;
+  }
+}

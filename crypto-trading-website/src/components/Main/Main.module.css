@@ -1,7 +1,6 @@
 .container {
   max-width: 1640px;
-  margin: -50px auto 0;
-  padding: 0 5%;
+  margin: -80px auto 0;
   scale: 83%;
   transition: all 0.3s;
 }
@@ -408,7 +407,7 @@
   color: red;
 }
 
-@media screen and (max-width: 1580px) {
+@media screen and (max-width: 1360px) {
   .gridContainer {
     grid-template-areas:
       "header header"
@@ -431,10 +430,15 @@
     align-items: center;
     flex-direction: column;
   }
+
+  .gridContainer > div > div {
+    gap: 20px;
+  }
 }
 @media screen and (max-width: 830px) {
   .container {
     transform: scale(92%);
+    margin-top: -260px;
   }
   .gridContainer {
     grid-template-areas:
