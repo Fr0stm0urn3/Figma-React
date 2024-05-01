@@ -7,4 +7,4 @@ Purpose:
 
 The primary purpose of this repository is to demonstrate my proficiency and practice with Figma designs as a starting point. Each folder within this repository contains a unique single-page application that I've developed based on Figma designs.
 
-cd any folder and write npm start in terminal.
+cd into any folder and write npm start in terminal.
