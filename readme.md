@@ -1,7 +1,6 @@
 Figma Practice Projects Repository:
 
-React Development Practice Projects Repository
-Welcome to my React Development Practice Projects Repository! This repository showcases a collection of single-page applications (SPAs) that I've developed using Figma designs as a reference.
+Practice Projects Repository! This repository showcases a collection of single-page applications (SPAs) that I've developed using Figma designs as a reference.
 
 Purpose:
 
