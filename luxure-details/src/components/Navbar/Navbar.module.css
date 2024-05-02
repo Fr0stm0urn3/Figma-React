@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  position: relative;
 }
 
 .title {
@@ -45,4 +46,52 @@
 .btn:hover {
   transform: scale(105%);
   transition: 0.3s ease-in-out;
+}
+
+.hamburger {
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+}
+
+.hamburgerMenu {
+  position: absolute;
+  background-color: #333;
+  padding: 30px 20px;
+  top: 80%;
+  right: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+.hamburgerMenu .list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .list.desc {
+    display: none;
+  }
+
+  .btn {
+    margin: 0;
+  }
+
+  .btn.desc {
+    display: none;
+    margin-left: 30px;
+  }
+  .hamburger {
+    display: block;
+  }
 }

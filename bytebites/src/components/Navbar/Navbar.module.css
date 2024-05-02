@@ -95,7 +95,7 @@
   line-height: 30px;
 }
 
-.itemActive:hover {
+.itemActive {
   transition: 0.3s;
   cursor: pointer;
 }

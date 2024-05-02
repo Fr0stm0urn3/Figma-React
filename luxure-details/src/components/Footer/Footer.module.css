@@ -80,3 +80,21 @@
 .end .policies * {
   margin: 0 16px;
 }
+
+@media screen and (max-width: 860px) {
+  .content {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .end {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+  }
+}
